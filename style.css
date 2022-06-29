@@ -1,0 +1,53 @@
+.titre{
+    text-align: center;
+    text-decoration: underline ;
+
+}
+.imag{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.intro{
+    color: blue;
+    text-decoration: underline;
+}
+.CONCLU
+{
+    color: rgb(233, 14, 14);
+    text-decoration: underline;
+}
+body{
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+form{
+    background-image: url("mr.jpg");
+    background-size: contain;
+    margin: 0% auto;
+    width: 500px;
+    padding: 2em;
+    border: 2px solid #ccc;
+    border-radius: 2em;
+}
+
+ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+form li + li{
+    margin-top: 1em;
+}
+
+label {
+  color: rgb(248, 7, 7);
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input {font-weight: bold;}
